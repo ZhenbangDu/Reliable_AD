@@ -15,6 +15,15 @@ In the e-commerce realm, compelling advertising images are pivotal for attractin
 
 ## Getting started
 
+- Python >= 3.9 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
+- [PyTorch >= 1.13.0+cu11.7](https://pytorch.org/)
+```bash
+conda create -n ReliableAD python==3.9.0
+conda activate ReliableAD
+conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
+pip install -r requirements.txt
+```
+
 ## Citation
 ```
 @inproceedings{du2024reliablead,
