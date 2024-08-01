@@ -62,7 +62,7 @@ class T2I():
     
     def prepare_model(self, args):
         controlnet = ControlNetModel.from_pretrained(args.controlnet_model_path, use_safetensors = True)
-        pipe = StableDiffusionControlNetInpaintPipeline.from_pretrained(args.base_model_path, controlnet = controlnet, safety_checker = None)
+        pipe = StableDiffusionControlNetInpaintPipeline.from_pretrained(args.base_model_path, controlnet = controlnet)
         if args.lora_model_path:
             pipe.load_lora_weights(args.lora_model_path)
             pipe.fuse_lora(lora_scale = args.lora_scale)
