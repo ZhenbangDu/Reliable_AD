@@ -41,7 +41,20 @@ cd Reliable_AD
 
 bash sample.sh
 ```
+And you can add your own configuration file in the following format:
 
+```json
+[
+{
+    "prompt": "a product...",
+    "negative_prompt": "...",
+    "image_scale": 0.66,
+    "matting": false,
+    "flag": 0
+},
+  ...
+]
+```
 ## RF1M Dataset
 [TrainSet](https://3.cn/-10gOQ79s)
 
