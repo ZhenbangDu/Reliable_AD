@@ -18,13 +18,24 @@ In the e-commerce realm, compelling advertising images are pivotal for attractin
 - Python >= 3.9 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
 - [PyTorch >= 1.13.0+cu11.7](https://pytorch.org/)
 ```bash
-conda create -n ReliableAD python==3.9.0
-conda activate ReliableAD
+conda create -n reliable python==3.9.0
+conda activate reliable
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
 pip install -r requirements.txt
 ```
 ## How to inference
-
+```bash
+cd Reliable_AD
+python sample.py \
+--base_model_path "digiplay/majicMIX_realistic_v7" \
+--controlnet_model_path  "lllyasviel/control_v11p_sd15_canny" \
+--batch_size 10 \
+--sampler_name 'DDIM'  \
+--num_inference_steps 40 \
+--config ./config/config.json  \
+--data_path  ./samples \
+--save_path ./outputs
+```
 ## Citation
 ```
 @inproceedings{du2024reliablead,
