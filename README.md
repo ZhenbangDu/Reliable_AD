@@ -69,3 +69,8 @@ And you can add your own configuration file in the following format:
     year={2024},
 }
 ```
+
+## Acknowledgement
+The dataset and code in this project are provided by JD.com and are intended solely for academic research purposes. Any commercial use requires explicit authorization from JD.com. Unauthorized commercial use of any part of this project is strictly prohibited.
+
+
