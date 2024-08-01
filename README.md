@@ -38,7 +38,7 @@ python sample.py \
 --sampler_name 'DDIM'  \
 --num_inference_steps 40 \
 --config ./config/config.json  \
---data_path  ./samples \
+--data_path  ./examples \
 --save_path ./outputs
 ```
 or
