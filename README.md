@@ -21,11 +21,16 @@ In the e-commerce realm, compelling advertising images are pivotal for attractin
 conda create -n reliable python==3.9.0
 conda activate reliable
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
+
+git clone https://github.com/ZhenbangDu/Reliable_AD.git
+cd Reliable_AD
 pip install -r requirements.txt
 ```
+
 ## How to inference
 ```bash
 cd Reliable_AD
+
 python sample.py \
 --base_model_path "digiplay/majicMIX_realistic_v7" \
 --controlnet_model_path  "lllyasviel/control_v11p_sd15_canny" \
@@ -36,6 +41,13 @@ python sample.py \
 --data_path  ./samples \
 --save_path ./outputs
 ```
+or
+```bash
+cd Reliable_AD
+
+bash sample.sh
+```
+
 ## Citation
 ```
 @inproceedings{du2024reliablead,
