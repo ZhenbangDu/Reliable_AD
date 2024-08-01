@@ -80,7 +80,7 @@ We additionally provide 1,000 product images for testing purposes. [TestSet](htt
 }
 ```
 
-## Acknowledgement
+## Copyright
 The dataset and code in this project are provided by JD.com and are intended solely for academic research purposes. Any commercial use requires explicit authorization from JD.com. Unauthorized commercial use of any part of this project is strictly prohibited.
 
 
