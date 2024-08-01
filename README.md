@@ -56,9 +56,19 @@ And you can add your own configuration file in the following format:
 ]
 ```
 ## RF1M Dataset
+This dataset contains over 1 million images, divided into 30 compressed packages. The `label.txt` file in the TrainSet link contains the labels for each image. The meaning of the labels is as follows:
+
+1. **Available**: Images deemed suitable for advertising purposes.
+2. **Unsuitable**: Failed advertising images caused by original product images issues, such as product truncation or damage.
+3. **Space Mismatch**: Images where the product and background have inappropriate spatial relations, such as a part of the product is floating.
+4. **Size Mismatch**: Discrepancies between the product size and its background, e.g., a massage chair appears smaller than a cabinet.
+5. **Indistinctiveness**: Images where the product fails to stand out due to background complexity or color similarities.
+6. **Shape Hallucination**: Backgrounds that erroneously extend the product shape, adding elements like pedestals or legs.
+For more details about the dataset, please refer to the paper.
+
 [TrainSet](https://3.cn/-10gOQ79s)
 
-[TestSet](https://3.cn/10gO8kw-K)
+We additionally provide 1,000 product images for testing purposes. [TestSet](https://3.cn/10gO8kw-K)
 
 ## Citation
 ```
