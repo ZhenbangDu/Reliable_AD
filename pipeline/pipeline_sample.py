@@ -136,7 +136,3 @@ class T2I():
             f.write(ori_path + '\t' + gene_path + '\t' + cat_path + '\t' + prompt)
             f.write('\n')
             f.close()
-
-    
-
-   
