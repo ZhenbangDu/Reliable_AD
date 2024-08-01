@@ -26,7 +26,7 @@ def get_parser():
     parser.add_argument('--save_concat', default=False, action='store_true')
     parser.add_argument('--sampler_name', type=str, choices=['Euler a', 'DPM++ SDE Karras', 'DDIM'], default='DDIM')
     parser.add_argument('--save_path', type=str, default='./results')
-    parser.add_argument('--data_path', type=str, default="./samples")
+    parser.add_argument('--data_path', type=str, default="./examples")
     parser.add_argument('--config', type=str, default="./config/config.json")
     return parser.parse_args()
 
