@@ -1,0 +1,37 @@
+[
+{
+    "prompt": "soft scene, a front view of a product places on a white desktop, light sky blue and white, commercial images, dynamic outdoor shooting, shallow depth of field, vignette, highly detailed, high budget Hollywood movie, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy . 35mm photograph, film, bokeh, professional",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+    "image_scale": 0.78,
+    "matting": false,
+    "flag": 0
+},
+{
+    "prompt": "front view of a product placed on white desktop, bright indoor scene, beige walls, virtual focus background, 4k, HD quality, flawless, photorealistic, commercial photography,",
+    "negative_prompt" : "(worst quality:2), (low quality:2), (normal quality:2), lowres, watermark, text, ng_deepnegative_v1_75t EasyNegative badhandv4",
+    "image_scale": 0.78,
+    "matting": false,
+    "flag": 0
+},
+{
+    "prompt": "minimalist scene, (bright:1.5), front view of a product placed on white desktop, {} walls, 4k, HD quality, flawless, photorealistic, commercial photography,",
+    "negative_prompt" : "(worst quality:2), (low quality:2), (normal quality:2), lowres, watermark, text, ng_deepnegative_v1_75t EasyNegative badhandv4",
+    "image_scale": 0.78,
+    "matting": false,
+    "flag": 1
+},
+{
+    "prompt": "indoor scene, front view of a product placed on desktop, white tablecloth on table, flowers, leaves, commercial images, dynamic indoor shooting, shallow depth of field, highly detailed, bokeh, professional, 4k, highly detailed,",
+    "negative_prompt" : "(worst quality:2), (low quality:2), (normal quality:2), lowres, watermark, text, humans, fingers, face, ng_deepnegative_v1_75t EasyNegative badhandv4",
+    "image_scale": 0.7,
+    "matting": false,
+    "flag": 0
+},
+{
+    "prompt": "indoor scene, bright, front view of a product placed on desktop, highly detailed, bokeh, professional, 4k, highly detailed,",
+    "negative_prompt" : "(worst quality:2), (low quality:2), (normal quality:2), lowres, watermark, fingers, human, text, ng_deepnegative_v1_75t EasyNegative badhandv4" ,
+    "image_scale": 0.74 ,
+    "matting": false,
+    "flag": 0
+}
+]
