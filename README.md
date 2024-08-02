@@ -1,5 +1,5 @@
 # Towards Reliable Advertising Image Generation Using Human Feedback [ECCV2024]
-The official code and dataset for the paper Towards Reliable Advertising Image Generation Using Human Feedback (ECCV2024)
+The official code and dataset for the paper [**Towards Reliable Advertising Image Generation Using Human Feedback**](https://arxiv.org/abs/2408.00418) (ECCV2024)
 - Authors: Zhenbang Du, Wei Feng, Haohan Wang, Yaoyu Li, Jingsen Wang, Jian Li, Zheng Zhang, Jingjing Lv, Xin Zhu, Junsheng Jin, Junjie Shen, Zhangang Lin, and Jingping Shao
 
 <img width="928" alt="image" src="figures/Figure1.png">  
