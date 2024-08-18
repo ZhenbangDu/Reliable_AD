@@ -41,6 +41,8 @@ cd Reliable_AD
 
 bash sample.sh
 ```
+We provide the weight of our finetuned ControlNet, which can be downloaded from [here](https://huggingface.co/ZhenbangDu/reliable_controlnet), or you can directly specify the ControlNet to be used for inferencing as "ZhenbangDu/reliable_controlnet".
+
 And you can add your own configuration file in the following format:
 
 ```json
