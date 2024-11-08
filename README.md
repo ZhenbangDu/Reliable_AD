@@ -70,6 +70,8 @@ For more details about the dataset, please refer to the paper.
 
 [TrainSet](https://3.cn/-10gOQ79s)
 
+[TrainSet-Subset1](https://3.cn/10hI-gq6q) (In this subset, we include part of the corresponding .png product images with an alpha channel. The filenames of the product images align one-to-one with the generated images.)
+
 We additionally provide 1,000 product images for testing purposes. You can unzip the downloaded `testset.zip` file and use the extracted directory as the `--data_path` parameter when inferencing.
 
 [TestSet](https://3.cn/10gO8kw-K)
